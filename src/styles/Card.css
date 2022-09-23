@@ -1,0 +1,17 @@
+.card {
+  max-width: 600px;
+  margin: auto;
+  padding: 1rem 2rem;
+}
+
+@media (max-width: 630px) {
+  .card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  .card {
+    padding: 1rem;
+  }
+}

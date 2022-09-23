@@ -1,0 +1,28 @@
+.btn {
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.btn:hover {
+  transform: scale(0.98);
+  opacity: 0.9;
+}
+
+.btn-primary {
+  background-color: red;
+}
+
+.btn-secondry {
+  background-color: #ffd1d1;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.btn:disabled {
+  background-color: gainsboro;
+}

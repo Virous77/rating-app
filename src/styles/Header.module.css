@@ -1,0 +1,17 @@
+.feedback {
+  background-color: #ff9494;
+  color: #fff5e4;
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.feedback h2 {
+  font-size: 2rem;
+}
+
+@media (max-width: 630px) {
+  .feedback {
+    width: 100%;
+  }
+}

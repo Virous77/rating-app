@@ -1,0 +1,15 @@
+.feedbackRating {
+  display: flex;
+  padding: 1rem 2rem;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 630px) {
+  .feedbackRating {
+    width: 100%;
+  }
+}
